@@ -764,6 +764,10 @@ header{
     height: 124px;
     border-radius: 50%;
 }
+.imgroom img{
+    width: 125px;
+    height: 125px;
+}
 .slick-next.slick-arrow{
     position: absolute;
     width: 48px;
@@ -1272,12 +1276,21 @@ footer{
         width: 458px;
         height: 100vh;
         background-color: white;
-        position: absolute;
+        position: fixed;
         z-index: 9999999999999999999999999 !important;
         top: 0;
         left: -100%;
         border-top-right-radius:30px;
         border-bottom-right-radius:30px;
+    }
+    .navback{
+        width: 100%;
+        top: 0;
+        z-index: 999999999999999999999999;
+        display: none;
+        height: 100%;
+        position: fixed;
+        background-color: rgba(0, 0, 0, 0.5);
     }
     .headerwrap .userimg{
         width: 100px;

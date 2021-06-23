@@ -4,13 +4,15 @@ $(document).ready(function(){
       $(".nav").stop().animate({
         "left":0
       })
+      $(".navback").fadeIn();
     })
-
-    $(".back").on("click", function() {
+    $(".navback").on("click",function() {
         $(".nav").stop().animate({
-            "left" : "-100%"
+          "left":-500
         })
-    })
+        $(".navback").fadeOut();
+      })
+
     $(".track").slick({
         centerMode : true,
         centerPadding : "330px",
