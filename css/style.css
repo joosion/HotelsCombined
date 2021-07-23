@@ -1233,7 +1233,7 @@ footer{
         width: 34px;
         height: 40px;
         background-image: url(../images/mheader2.png);
-        right: 300px;
+        right: 309px;
         background-position: center;
         background-size: cover;
     }
@@ -1245,7 +1245,7 @@ footer{
         font-size: 26px;
         color: #767676;
         top: 60px;
-        right: 48px;
+        right: 57px;
     }
     .headerwrap h1{
         display: none;
