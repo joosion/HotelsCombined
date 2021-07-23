@@ -1977,7 +1977,7 @@ footer{
     }
     .mcon4wrap .big{
         text-align: left;
-        font-size: 27px;
+        font-size: 27px !important;
         font-weight: bold;
         color: #191919;
     }
