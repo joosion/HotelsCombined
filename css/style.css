@@ -258,6 +258,7 @@ header{
 }
 /* reser checkout */
 .bannerwrap .reser_start{
+    outline: unset;
     text-align: center;
     width: 240px;
     height: 56px;
@@ -314,6 +315,7 @@ header{
     display: none;
 }
 .con1 .slick-prev.slick-arrow{
+    outline: unset;
     width: 50px;
     font-size: 0;
     height: 50px;
@@ -329,6 +331,7 @@ header{
     background-size: cover;
 }
 .con1 .slick-next.slick-arrow{
+    outline: unset;
     width: 50px;
     font-size: 0;
     height: 50px;
@@ -769,6 +772,7 @@ header{
     height: 125px;
 }
 .slick-next.slick-arrow{
+    outline: unset;
     position: absolute;
     width: 48px;
     height: 48px;
@@ -811,6 +815,7 @@ header{
     background-image: url(../Country/spain_logo.jpg);
 }
 .slick-prev.slick-arrow{
+    outline: unset;
     position: absolute;
     width: 50px;
     height: 50px;
